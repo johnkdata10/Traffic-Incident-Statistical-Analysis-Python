@@ -5,8 +5,6 @@ Created on Mon Jul 26 13:50:40 2021
 @author: JohnKramarczyk
 """
 
-# !pip install statsmodels
-
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 
@@ -48,16 +46,16 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 import warnings
 warnings.filterwarnings('ignore')
 
-# %matplotlib inline
+%matplotlib inline
 
-# plt.rcParams['figure.figsize'] = [20.0, 7.0]
-# plt.rcParams.update({'font.size': 22,})
+plt.rcParams['figure.figsize'] = [20.0, 7.0]
+plt.rcParams.update({'font.size': 22,})
 
-# sns.set_palette('viridis')
-# sns.set_style('white')
-# sns.set_context('talk', font_scale=0.8)
+sns.set_palette('viridis')
+sns.set_style('white')
+sns.set_context('talk', font_scale=0.8)
 
-onehot_df = pd.read_excel('C:/Users/JohnKramarczyk/Documents/__ML Project/TestSET.xlsx')
+onehot_df = pd.read_excel('C:/Users/JohnKramarczyk/Documents/ML_Project/TestSET.xlsx')
 # onehot_df.corr()
 
 X = onehot_df.iloc[:, 1:-1]
