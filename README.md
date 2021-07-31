@@ -1,4 +1,5 @@
 # Traffic-Incident-Statistical-Analysis-Python
+#### This was a proprietary project therefore the input and output data are unavailable at this time.
 
 ## Background and Goal
 From 2016-2020, company employees were involved in 400+ auto incidents every year globally. The purpose of the data analysis in this project is to better protect employees 
